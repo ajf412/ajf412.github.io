@@ -1,0 +1,113 @@
+/* ________SETUP________ */
+
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  font-family: 'Kanit', sans-serif;
+  background: #7C7C7C;
+  color: #2B303A;
+}
+
+a {
+  color: #2B303A;
+  text-decoration: none;
+}
+
+p {
+  color: #2B303A;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+}
+
+.TUTORIALS__YOUTUBE {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 20px 0;
+}
+
+iframe {
+  margin-top: 0;
+  border: 2px solid red;
+}
+
+/* ________HEADER________ */
+.HEADER__TEXT {
+  background: #EEE5E9;
+  width: 220px;
+  padding: 0px 10px 0px 10px;
+}
+@media (max-width: 880px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+/* ________MAIN CONTENT________ */
+
+.CONTENTBG {
+  background: #EEE5E9;
+}
+
+.MAIN h3, .CONTACT h3 {
+  width: 100%;
+  background-color: #D64933;
+  padding: 10px;
+}
+
+@media (max-width: 880px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+/* ________CONTACT________ */
+
+
+@media (max-width: 880px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+/* ________FOOTER________ */
+
+.FOOTER {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 880px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
