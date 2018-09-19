@@ -1,5 +1,12 @@
+.CAROUSEL {
+    width: 600px;
+    align-self: center;
+    justify-self: center;
+}
+
 .CAROUSEL__CAPTION {
     color: white;
     text-shadow: 0px 0px 10px black;
     background: rgba(150,150,150,0.5);
 }
+

@@ -73,10 +73,10 @@ class Example extends Component {
     const slides = items.map((item) => {
       return (
         <CarouselItem
+          className="CAROUSEL__ITEM"
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
-          className="CAROUSEL"
         >
           <img src={item.src} alt={item.altText} />
           <CarouselCaption captionHeader={item.caption} className="CAROUSEL__CAPTION"/>
@@ -85,18 +85,17 @@ class Example extends Component {
     });
 
     return (
-        <div className="CAROUSEL">
-            <Carousel
-                activeIndex={activeIndex}
-                next={this.next}
-                previous={this.previous}
-            >
-                <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-                {slides}
-                <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-                <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-            </Carousel>
-      </div>
+        <Carousel
+          className="CAROUSEL"
+          activeIndex={activeIndex}
+          next={this.next}
+          previous={this.previous}
+        >
+          <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+          {slides}
+          <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+          <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        </Carousel>
     );
   }
 }
