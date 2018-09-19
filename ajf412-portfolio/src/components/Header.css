@@ -1,0 +1,36 @@
+.HEADER {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.HEADER__CONTACT {
+    text-align: center;
+    padding-left: 25px;
+}
+
+.HEADER__FLAG {
+    height: 210px;
+}
+
+@media (max-width: 768px) {
+    .HEADER {
+      flex-direction: column;
+    }
+    .HEADER__FLAG {
+      height: 112px;
+      width: 220px;
+      align-self: center;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .HEADER {
+      flex-direction: column;
+    }
+    .HEADER__FLAG {
+      height: 112px;
+      width: 220px;
+      align-self: center;
+    }
+  }
