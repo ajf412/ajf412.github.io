@@ -49,6 +49,14 @@ export default class Example extends React.Component {
               Tutorials
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink
+              className={classnames({ active: this.state.activeTab === '4' })}
+              onClick={() => { this.toggle('4'); }}
+            >
+              Python Text Adventure
+            </NavLink>
+          </NavItem>
         </Nav>
         <TabContent activeTab={this.state.activeTab}>
           <TabPane tabId="1">
@@ -81,6 +89,17 @@ export default class Example extends React.Component {
                     <iframe width="300" height="auto" src="https://www.youtube.com/embed/91_04YQN6B8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     <iframe width="300" height="auto" src="https://www.youtube.com/embed/TFg79h9KBoc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
+              </Col>
+            </Row>
+          </TabPane>
+          <TabPane tabId="4">
+          <Row>
+              <Col sm="12">
+                <div className="WORKTABS__TAB"><h4>Python Text Adventure</h4><a href="https://repl.it/@ajf412/PythonADV">visit</a></div>
+                <p>A small text adventure game.<br/>
+                Built with Python, based on Python.<br/>
+                This is hosted on repl.it<br/>
+                This is a solo project.</p>
               </Col>
             </Row>
           </TabPane>
