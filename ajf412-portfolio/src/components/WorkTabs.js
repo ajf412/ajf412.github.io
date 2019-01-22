@@ -72,10 +72,8 @@ export default class Example extends React.Component {
               <Col sm="12">
                 <div className="WORKTABS__TAB"><h4>Calvary Baptist</h4><a href="https:www.calvarymonaca.com">Old Site</a><a href="https://calvarymonaca.netlify.com/">WIP of rework</a></div>
                 <img src={Calvary} alt="Calvary Logo"/>
-                <p>This is a website that is currently a work in progress.<br/>
-                It is a rebuild of previous work I had done before attending Lambda School.<br/>
-                This website is being built with a MERN stack and CSS styling.<br/>
-                This is a solo project.</p>
+                <p>Website rebuild for Calvary Baptist Church<br/>
+                Started as a node site, but for billing simplicity, we decided to stay with HostGator as their host, and had to switch to a WordPress site.  This uses a theme, customized to fit their needs.</p>
               </Col>
             </Row>
           </TabPane>
